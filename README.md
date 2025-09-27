@@ -27,10 +27,9 @@ uvicorn app.main:app --reload
 ```
 
 ## This project includes unit tests (pytest) for all requirements
-
-# Linux / macOS
+Linux / macOS
 PYTHONPATH=. pytest -v
-## Windows (PowerShell)
+Windows (PowerShell)
 $env:PYTHONPATH="."; pytest -v
 
 ## Run Demo Script
